@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Giphy Hunter</title>
+</head>
+<body class="body">
+    <nav class="navbar fixed-top navbar-light justify-content-between" style="background-color: #1E232E">
+        <a class="navbar-brand" style="color: whitesmoke;" href="#">
+            Giphy Hunter
+            <img src="./assets/target.png" width="35" height="35">
+        </a>
+        <div class="navbar-text">
+            <button type="button" class="btn email-btn" data-toggle="modal" style="color: whitesmoke; background-color: #DB651E; border-radius: 10px;">
+                Email Me
+            </button>        
+        </div>
+    </nav>
+    <br><br><br>
+    <div class="container">
+        <br>
+        <h1 class="header">Hunt for GIFs</h1>
+        <form class="searchForm">
+            <input placeholder="Enter a keyword" type="text" id="search" class="search" required><br>
+            <button class="btn submit" style="margin-left:5px;">SEARCH</button>
+            <button class="btn refresh" style="margin-left:5px;" onclick="location.reload()">CLEAR</button>
+        </form>
+    </div>
+    <br>
+    <div class="results-container">            
+        <section class="card-columns card-columns-custom" style="display: inline-block; border:none">
+        
+        </section>
+    </div>
+    <br><br><br><br>
+    <hr>
+    <div class="giphy-footer">
+        <img src="./assets/Giphy Icon Circle 720 px.png" alt="giphy logo" style="height: 40px; width: 40px;">
+        <p>POWERED BY GIPHY</p>
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

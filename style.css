@@ -1,0 +1,64 @@
+.body {
+    background-image: url(./assets/HuntingGIF.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+a.navbar-brand{
+    color: whitesmoke
+}
+.email-btn:hover{
+    background-color: #88796c;
+}
+h1{
+    text-align: center;
+    color: #DB651E;
+}
+.searchForm{
+    text-align: center;
+}
+.results-container{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 0 2rem;
+}
+.search{
+    height: 37px;
+    margin-bottom: 1rem;
+}
+.refresh{
+    background-color: #CCA280;
+    color: #F4F5F2;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 5px #1E232E;
+}
+.refresh:hover{
+    background-color: #88796c;
+}
+.submit{
+    background-color: #DB651E;
+    color: #F4F5F2;
+    width: 150px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 5px #1E232E;
+}
+.submit:hover{
+    background-color: #da8a58;
+}
+.no-result{
+    border: 3px rgb(0, 91, 160) dotted;
+    color: rgb(0, 91, 160);
+    font-size: 3rem;
+}
+.card-columns-custom{
+    margin: 0;
+    padding: 0;
+}
+.card-custom{
+    background-color: white;
+}
+.giphy-footer{
+    text-align: center;
+}
